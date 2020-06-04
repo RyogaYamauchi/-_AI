@@ -33,6 +33,7 @@ class Main
 	private boolean _endFlag = false;
 	private Integer _endCount = 0;
 
+
 	public int[] run() {
 		setup();
 		sortMap();
@@ -185,3 +186,4 @@ class Main
 		return  Arrays.stream(arr).mapToObj(i -> i).toArray(Integer[]::new);
 	}
 }
+
