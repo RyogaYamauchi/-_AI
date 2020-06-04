@@ -115,7 +115,7 @@ class Main
 		Integer cnt = 0;
 		for(var i = 0; i < _zigen;i++)
 		{
-			if(_endCount > _limit)
+			if(_endCount >= _limit)
 			{
 				_endFlag = true;
 				return;
