@@ -1,4 +1,4 @@
-package Random;
+package Z;
 
 public class Play implements P.Player {
 
@@ -18,7 +18,6 @@ public class Play implements P.Player {
 				return submit;
 			}
 		}
-
 	}
 
 }
