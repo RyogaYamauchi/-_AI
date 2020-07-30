@@ -19,7 +19,12 @@ public class Solver {
 
 	public static void answer() 
 	{
-		
+		var random = new Random();
+		for(var i  = 0 ;i < 50;i++)
+		{
+			System.out.println("{	"+random.nextInt(100)+"	,	"+random.nextInt(100)+"	},");
+		}
+
 		for(var i = 0; i < _length; i++)
 		{
 			_positions.add(new Vector2(i, _p[i][0], _p[i][0]));
